@@ -1,0 +1,82 @@
+func foo() return int {return 0;}
+func foo_2() return int {return 0;}
+func f234() return int{return 0;}
+func foo(i,j,k:int;l,m,n:bool)return int {return 0;}
+proc fee(a,b:int){}
+func fei(a,b,c:int;d,e,f:bool;g,h:int)return int{return 0;}
+func foo(i,j,k:int)return int
+{
+	func square(t:int) return int
+	{
+		var temp:int;
+		temp=t*t;
+		return 0;
+	}
+	var total:int;
+	total=1;
+	return total;
+}
+proc vars(){
+	var i:int;
+	var m,n:bool;
+	var c:char;
+	var s:string[20];
+}
+
+proc test(){
+	var a,b:string[100];
+	var c:char;
+	var I:int;
+	c='e';
+	a[19]='f';
+	a[4+2]='g';
+	b=a;
+	b[3]=c;
+	b[2]=b[3];
+	a="test";
+	i=|s|;
+}
+
+func blocks() return int
+{
+	var x:int;
+	var y:int;
+	 x=1;
+	 y=2;
+	 x=2;
+	 y=3;
+
+	return 0;
+}
+
+proc test_while(){
+	while(true){l=2;k=1+j;}
+	while(false) x=x+1;
+	
+}
+
+proc test_pointers(){
+	var x:int;
+	var y:int*;
+	x=5;
+	y=&x;
+	x=6;
+	var x:char*;
+	var y:string[10];
+	var z:char;
+	y="footer";
+	x=&y[5];
+	z=^(x-5);
+	y="brafoo";
+}
+
+proc test_for_loop(){
+	for(i=0,k=0 ; i<k ; i=i*2,k=k+1){
+		if(k==1){
+		}
+		else{
+		}
+	}
+}
+
+proc Main(){}
